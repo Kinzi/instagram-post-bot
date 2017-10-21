@@ -11,7 +11,7 @@ It's important to keep the columns in this order and with these names as they wi
 
 2. Follow step 1 from this [Google API tutorial](https://developers.google.com/sheets/api/quickstart/nodejs) for nodejs. Store this file under `.credentials/client_secret.json` in the root folder.
 
-3. Set your keys and passwords in the config.js file. All keys but "ADD_TO_CAPTION" can also be set as heroku environment variables. Use "/r" for lione breaks in ADD_TO_CAPTION.
+3. Set your keys and passwords in the config.js file. All keys but "ADD_TO_CAPTION" can also be set as heroku environment variables. Use "/r" for line breaks in ADD_TO_CAPTION.
 
 Use cron notation to set post interval:
 
