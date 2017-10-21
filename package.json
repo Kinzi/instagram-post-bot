@@ -1,0 +1,21 @@
+{
+  "name": "insta-post-bot",
+  "version": "1.0.0",
+  "description": "A bot to automatically post to instagram from a google spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Sebastian Kinzlinger",
+  "website": "https://webmarken.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0",
+    "instagram-private-api": "^0.6.7",
+    "node-schedule": "^1.2.5",
+    "q": "^1.5.1"
+  }
+}
