@@ -6,12 +6,12 @@ The app fill fetch a random row from the spread and post it along with the capti
 
 ## How to set things up
 
-1. Set up a google spreadsheet with coliumns **exactly** like [this demo](https://docs.google.com/spreadsheets/d/1t-lCq91ExjEOA8wAEpxunzyDcpPMjGzsLTA5iYwEMNA/edit?usp=sharing)
+1. Set up a google spreadsheet with columns **exactly** like [this demo](https://docs.google.com/spreadsheets/d/1t-lCq91ExjEOA8wAEpxunzyDcpPMjGzsLTA5iYwEMNA/edit?usp=sharing)
 It's important to keep the columns in this order and with these names as they will be used as object keys.
 
 2. Follow step 1 from this [Google API tutorial](https://developers.google.com/sheets/api/quickstart/nodejs) for nodejs. Store this file under `.credentials/client_secret.json` in the root folder.
 
-3. Set your keys and passwords in the config.js file. All keys but "ADD_TO_CAPTION" can also be set as heroku environment variables. Use "/r" for lione breaks in ADD_TO_CAPTION.
+3. Set your keys and passwords in the config.js file. All keys but "ADD_TO_CAPTION" can also be set as heroku environment variables. Use "/r" for line breaks in ADD_TO_CAPTION. Add a Heroku URL to automatically ping the app every 5 minutes to keep it alive.
 
 Use cron notation to set post interval:
 
