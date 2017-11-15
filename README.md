@@ -1,8 +1,8 @@
 # Instagram Post Bot
 
 ## What's this about?
-Post images and captions from a google spreadsheet to instagram. The app is written in nodejs app and best hosted (for free) on heroku.
-The app fill fetch a random row from the spread and post it along with the caption. An additional caption string can be set in the code. After posting it will mark the row as posted in the spreadsheet, so it can not be posted again.
+Post images and captions from a google spreadsheet to instagram. The app is written in nodejs and best hosted (for free) on heroku.
+The app will fetch a random row from the spread and post it along with the caption. An additional caption string can be set in the code. After posting it will mark the row as posted in the spreadsheet so it will not be posted again.
 
 ## How to set things up
 
@@ -26,7 +26,7 @@ Use cron notation to set post interval:
  └──────────────────── minute (0 - 59)
  ```
 
- 4. Run app locally with `npm start`. Open your Browser at localhost:5000 and hit the button. You will be prompted in the commandline to authenticate this app with google. AuthToken will be saved to `credentials`. Follow the instructions and post the verification code to the commandline. You should be automatically logged in to instagram. The session also will be saved to `credentials`.
+ 4. Run app locally with `npm start`. Open your Browser at localhost:5000 and hit the button. You will be prompted in the commandline to authenticate this app with google. AuthToken will be saved to `credentials/`. Follow the instructions and post the verification code to the commandline. You should be automatically logged in to instagram. The session also will be saved to `credentials/`.
 
  5. If everything works remove `credentials/*` from `.gitignore` and deploy the app along with the credentials to heroku
 
