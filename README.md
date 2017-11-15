@@ -30,7 +30,8 @@ Use cron notation to set post interval:
 
  5. If everything works remove `credentials/*` from `.gitignore` and deploy the app along with the credentials to heroku
 
-## Frameworks Used
+## Frameworks/Repos Used
 - nodejs / express / some npm modules
 - vue.js
 - [Skeleton](https://github.com/dhg/Skeleton)
+- [instagram-private-api](https://github.com/huttarichard/instagram-private-api)
